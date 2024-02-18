@@ -49,8 +49,15 @@
     text-align: center;
     line-height: 30px;
     font-size: 1rem;
-    flex-wrap: wrap;
+    text-wrap: wrap;
 }
 .hero-message a{
     text-decoration: none;
+}
+
+
+@media screen and (max-width:1200px){
+    .hero-message{
+        font-size: 0.8rem;
+    }
 }

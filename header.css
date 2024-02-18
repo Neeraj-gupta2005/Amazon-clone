@@ -207,3 +207,9 @@ select{
         justify-content: space-between;
     }
 }
+
+@media screen and (min-width:812px) {
+    .middle-section{
+        display: flex;
+    }
+}
