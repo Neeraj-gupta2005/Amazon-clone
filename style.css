@@ -1,0 +1,56 @@
+.below-navbar{
+    height: 40px;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.below-navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 10px;
+}
+.below-navbar li,.left{
+    padding:10px;
+}
+.below-navbar .left{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    gap: 5px;
+}
+
+.below-navbar li:hover,.below-navbar .left:hover{
+    border: 1px solid white;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+/* hero section starts here */
+
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/hero_image.jpg);
+    height: 600px;
+    background-size: cover;
+}
+
+.hero-message{
+    background-color: white;
+    padding: 6px;
+    width:90%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 1rem;
+    flex-wrap: wrap;
+}
+.hero-message a{
+    text-decoration: none;
+}
