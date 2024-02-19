@@ -93,7 +93,7 @@ body{
     font-size: 13px;
     line-height: 40px;
 }
-.shop-now a{
+.shop-now a,.sign-in-option .below a{
     text-decoration: none;
     color:#007185;
 }
@@ -111,6 +111,53 @@ body{
 }
 
 
+/* sign in card above the footer  */
+.sign-in-option{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 4px;
+    border:1px solid rgb(221, 221, 221);
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.sign-in-option .above{
+    font-size: 14px;
+}
+.sign-in-option .below{
+    font-size: 11px;
+}
+.sign-in-option button{
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px 100px;
+    border-radius: 4px;
+    border: 1px solid #e6a400;
+    background: linear-gradient(#ffd978,#ffc226);
+}
+.outer-box{
+    margin-top: 20px;
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.back-to-top{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #37475a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.back-to-top a{
+    color:white;
+    text-decoration: none;
+    font-size: 13px;
+}
 @media screen and (max-width:1200px){
     .hero-message{
         font-size: 0.8rem;
