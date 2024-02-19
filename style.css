@@ -114,6 +114,12 @@ body{
     padding:20px;
     background-color: white;
 }
+
+.card:hover{
+    box-shadow: 0px 0px 20px rgb(202, 202, 202);
+    /* background-color: rgb(245, 245, 245); */
+    cursor: pointer;
+}
 .item-title{
     height: 30px;
     width: 100%;
