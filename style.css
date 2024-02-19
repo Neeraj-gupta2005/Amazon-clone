@@ -1,3 +1,7 @@
+body{
+    margin-bottom: 40px;
+    background-color: #e2e7e6;
+}
 .below-navbar{
     height: 40px;
     background-color: #232f3e;
@@ -35,24 +39,75 @@
 
 .hero-section{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items:end;
+    justify-content:center;
     background-image: url(images/hero_image.jpg);
-    height: 600px;
+    height: 330px;
     background-size: cover;
 }
 
 .hero-message{
     background-color: white;
     padding: 6px;
-    width:90%;
+    width:95%;
+    position: relative;
     text-align: center;
     line-height: 30px;
     font-size: 1rem;
     text-wrap: wrap;
+    margin-bottom: 20px;
 }
 .hero-message a{
+    color: #007185;
     text-decoration: none;
+}
+
+
+/* card section starts here */
+
+.main-section{
+    width:95%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+.card{
+    height: 400px;
+    padding:20px;
+    background-color: white;
+}
+.item-title{
+    height: 30px;
+    width: 100%;
+    font-size: 21px;
+    font-weight: bold;
+}
+.item-image{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 280px;
+}
+.shop-now{
+    height: 40px;
+    font-size: 13px;
+    line-height: 40px;
+}
+.shop-now a{
+    text-decoration: none;
+    color:#007185;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.second-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
 }
 
 
