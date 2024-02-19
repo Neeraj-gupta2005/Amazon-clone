@@ -1,5 +1,4 @@
 body{
-    margin-bottom: 40px;
     background-color: #e2e7e6;
 }
 .below-navbar{
@@ -11,6 +10,12 @@ body{
     color: white;
     font-size: 0.8rem;
     font-weight: 500;
+}
+@media screen and (max-width:550px) {
+    .below-navbar ul li{
+        display: none;
+    }
+    
 }
 
 .below-navbar ul{
@@ -72,6 +77,38 @@ body{
     column-gap: 20px;
     row-gap: 10px;
 }
+@media screen and (max-width:1170px) {
+    .main-section{
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 30px;
+        row-gap: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+}
+
+@media screen and (max-width:930px) {
+    .main-section{
+        grid-template-columns:1fr 1fr;
+        column-gap: 40px;
+        row-gap: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+}
+@media screen and (max-width:680px) {
+    .main-section{
+        grid-template-columns:1fr;
+        column-gap: 40px;
+        row-gap: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+}
+
 .card{
     height: 400px;
     padding:20px;
@@ -156,6 +193,80 @@ body{
 .back-to-top a{
     color:white;
     text-decoration: none;
+    font-size: 13px;
+}
+
+.main-footer{
+    padding-top: 30px;
+    background-color: rgb(35, 47, 62);
+    color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    min-height: 400px;
+    padding-left: 150px;
+    padding-right: 150px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:440px) {
+    .main-footer{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+}
+.part{
+    height: 80%;
+    flex: 1;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+#boldList{
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.part li{
+    margin-bottom: 10px;
+    list-style: none;
+}
+.line{
+    height: 1px;
+    background-color: #3a4553;
+}
+
+.last-section{
+    background-color: rgb(35, 47, 62);
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.last-logo{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 80px;
+}
+
+.last-logo img{
+    height: 70%;
+}
+.last-section button{
+    background-color: transparent;
+    border: 1px solid #848688;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    color: white;
     font-size: 13px;
 }
 @media screen and (max-width:1200px){
