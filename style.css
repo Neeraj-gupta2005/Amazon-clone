@@ -252,6 +252,7 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
+    padding: 20px;
 }
 .last-logo{
     height: 80px;
